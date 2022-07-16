@@ -1,0 +1,53 @@
+.workplace {
+  width: $con-w;
+  margin-bottom: $sec-t;
+  padding: 1rem;
+  background: $col-c;
+  border-radius: $bordr;
+  border: $brspx $col-d solid;
+
+  .title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .position {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .period {
+    display: flex;
+    flex-direction: column;
+    place-items: end;
+
+    .print {
+      background: $col-d;
+      border-radius: $bordr;
+      width: fit-content;
+      padding: 0 10px;
+      animation: fadeIn 0.5s;
+    }
+  }
+
+  .tech {
+    text-align: center;
+    background: $col-b;
+    border-radius: $bordr;
+    padding: 15px;
+    border: $brspx $col-d solid;
+
+    b {
+      text-transform: capitalize;
+    }
+  }
+
+  ul {
+    margin: 15px;
+
+    li::marker {
+      color: $col-d;
+    }
+  }
+}

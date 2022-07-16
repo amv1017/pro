@@ -1,0 +1,108 @@
+.personal {
+  display: flex;
+  width: $con-w;
+  margin: $sec-t auto;
+  justify-content: space-between;
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    width: 39vw;
+    border: $brspx $col-d solid;
+    border-radius: $bordr;
+    background: $col-c;
+    position: relative;
+
+    .fio {
+      border-radius: $bordr;
+      background: $col-d;
+      width: 30rem;
+      font-size: 1.5rem;
+      letter-spacing: 0.025rem;
+      font-weight: 700;
+      text-align: center;
+      position: absolute;
+      top: -$brspx;
+      left: -$brspx;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 50px;
+
+      .general {
+        margin-left: 10px;
+
+        .job-n-age {
+          font-size: 1.25rem;
+          font-weight: 600;
+        }
+
+        .contacts {
+          display: flex;
+          flex-direction: column;
+          margin-left: 20px;
+        }
+      }
+
+      .card {
+        margin-right: 50px;
+        margin-bottom: 15px;
+        border-bottom-left-radius: $bordr;
+        border-bottom-right-radius: $bordr;
+        display: flex;
+
+        .photo {
+          max-height: 200px;
+          border-radius: 0.5rem;
+          padding: $brspx;
+          background: $col-d;
+          animation: fadeIn 1s;
+        }
+      }
+    }
+  }
+
+  .tech {
+    width: 39vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    background: $col-c;
+    border: $brspx $col-d solid;
+    border-radius: $bordr;
+
+    .info {
+      transition: transform 1.5s;
+      animation: fadeIn 0.5s;
+      background: $col-b;
+      margin: 10px;
+      width: 95px;
+      height: 95px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: $bordr;
+
+      .icon {
+        width: 75%;
+        padding: 5px;
+      }
+
+      .title {
+        background: $col-d;
+        text-align: center;
+        border-radius: $bordr;
+        height: 25%;
+        width: 100%;
+      }
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

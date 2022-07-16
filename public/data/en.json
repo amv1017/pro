@@ -1,0 +1,39 @@
+{
+  "name": "Alexander M. Vinokurov",
+  "job": "Frontend developer",
+  "bbs": {
+    "key": "bbs",
+    "title": "OOO «BBS»",
+    "position": "middle fullstack developer",
+    "details": "development of the portal for processing billing data (\"Universal Payment Bills\", receipts and other payment documents);\ncreation of interface and server part of the module for processing PDF files according to a given template, creation of the module for generating attendant documentation;\ncreation of web-interface and web-components for generating reports, managing statuses and routes of orders, sending email notifications to customers;\nswitching to the esbuild build tool, which is more adapted to the React-Golang application stack, build time was reduced by more than 20 times and the build size by 2.5 times;\ncreation of services for updating database of post offices, combining documents with subsequent printing, automated output of labels and application of technical marks;\ncreation of web-interface of the transport-logistics module."
+  },
+  "iif": {
+    "key": "iif",
+    "title": "MOU «IIF»",
+    "position": "aspirant, engineer-developer",
+    "details": "development of the client-server simulation model of the communication system as part of scientific project;\ndevelopment of the system for gathering and processing information to rate the functioning of the complex of technical means for perimeter protection;\ndevelopment of desktop- and web-interfaces for managing the security complex and its interaction with peripheral devices;\nfinding solutions for being able to produce main blocks of security systems, searching for potential manufacturers and suppliers;\nfull architectural supervision of the production cycle, coordination of work between departments."
+  },
+  "year": {
+    "m": "years",
+    "n1": "year",
+    "n234": "years",
+    "n567890": "years",
+    "nx": "years"
+  },
+  "month": {
+    "m": "months",
+    "n1": "month",
+    "n234": "months",
+    "n567890": "months",
+    "nx": "months"
+  },
+  "w": {
+    "email": "e-mail",
+    "phone": "Phone",
+    "github": "GitHub",
+    "tillnow": "till now",
+    "and": "and",
+    "technologies": "technologies"
+  },
+  "lang": "en"
+}

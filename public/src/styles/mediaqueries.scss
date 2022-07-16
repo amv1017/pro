@@ -1,0 +1,311 @@
+@media screen and (max-width: 1232px) {
+
+.personal {
+  flex-direction: column;
+
+  .about {
+    width: 100%;
+
+    .fio {
+      width: calc(100% + 2px);
+    }
+
+    .info {
+      .card {
+        margin-right: 40px;
+      }
+    }
+  }
+
+  .tech {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
+}
+
+
+
+@media screen and (max-width: 1100px) {
+
+.personal {
+  flex-direction: column;
+
+  .about {
+    width: 100%;
+
+    .fio {
+      width: calc(100% + 2px);
+    }
+  }
+
+  .tech {
+    width: 100%;
+  }
+}
+
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+.personal {
+  flex-direction: column;
+
+  .about {
+    width: 100%;
+
+    .fio {
+      width: calc(100% + 2px);
+    }
+  }
+
+  .tech {
+    width: 100%;
+
+    .info {
+      height: 90px;
+      width: 90px;
+    }
+  }
+}
+
+.btns {
+  right: 15px;
+}
+
+}
+
+
+
+@media screen and (max-width: 864px) {
+
+.personal {
+  flex-direction: column;
+
+  .about {
+    width: 100%;
+
+    .fio {
+      width: calc(100% + 2px);
+    }
+  }
+
+  .tech {
+    width: 100%;
+
+    .info {
+      height: 85px;
+      width: 85px;
+    }
+  }
+}
+
+.btns {
+  right: 15px;
+}
+
+}
+
+
+
+@media screen and (max-width: 760px) {
+
+.personal {
+  flex-direction: column;
+
+  .about {
+    width: 100%;
+
+    .fio {
+      width: calc(100% + 2px);
+    }
+  }
+
+  .tech {
+    width: 100%;
+
+    .info {
+      height: 95px;
+      width: 95px;
+    }
+  }
+}
+
+.btns {
+  right: 15px;
+}
+
+}
+
+
+
+@media screen and (max-width: 638px) {
+
+.personal {
+  flex-direction: column;
+
+  .about {
+    width: 100%;
+
+    .fio {
+      width: calc(100% + 2px);
+    }
+  }
+
+  .tech {
+    width: 100%;
+
+    .info {
+      height: 75px;
+      width: 75px;
+    }
+  }
+}
+
+.btns {
+  right: 15px;
+}
+
+}
+
+
+
+@media screen and (max-width: 542px) {
+
+.personal {
+  flex-direction: column;
+
+  .about {
+    width: 100%;
+
+    .fio {
+      width: calc(100% + 2px);
+    }
+
+    .info {
+      margin-top: 80px;
+
+      .general {
+        .job-n-age {
+          font-size: 1rem;
+        }
+        .contacts{
+
+          margin-left: 10px;
+        }
+      }
+
+      .card {
+        .photo {
+          max-height: 125px;
+        }
+      }
+    }
+  }
+
+  .tech {
+    width: 100%;
+
+    .info {
+      height: 95px;
+      width: 95px;
+    }
+  }
+}
+
+.btns {
+  right: 4px;
+}
+
+}
+
+
+@media screen and (max-width: 450px) {
+
+.personal {
+  flex-direction: column;
+  width: $con-s;
+
+  .about {
+    width: 100%;
+
+    .fio {
+      font-size: 1.25rem;
+      width: calc(100% + 2px);
+    }
+
+    .info {
+      margin-top: 70px;
+      .general {
+        .job-n-age {
+          font-size: 1.2rem;
+        }
+        .contacts {
+          width: 150px;
+          margin-left: 10px;
+        }
+      }
+
+      .card {
+        margin-right: 14px;
+        .photo {
+          max-height: 125px;
+        }
+      }
+    }
+  }
+
+  .tech {
+    width: 100%;
+
+    .info {
+      height: 80px;
+      width: 80px;
+
+      .title {
+        font-size: 11px;
+        line-height: 1.7;
+      }
+    }
+  }
+}
+
+.btns {
+  width: 25px;
+}
+
+.workplace {
+  width: $con-s;
+}
+
+}
+
+
+
+@media screen and (max-width: 365px) {
+
+.personal {
+  flex-direction: column;
+
+  .about {
+    width: 100%;
+
+    .fio {
+      width: calc(100% + 2px);
+    }
+  }
+
+  .tech {
+    width: 100%;
+
+    .info {
+      height: 64px;
+      width: 64px;
+    }
+  }
+}
+
+}

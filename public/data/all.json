@@ -1,0 +1,20 @@
+{
+  "email": "amv1017@mail.ru",
+  "phone": "+7(925)322-95-87",
+  "github": "https://github.com/amv1017",
+  "birthday": "1990/10/22",
+  "bbs": {
+    "tech": "JavaScript, TypeScript, React, Semantic UI, HTML, CSS, Webpack, esbuild, Go, gofpdf, excelize, Git, PostgreSQL",
+    "period": {
+      "start": "2021/06/02",
+      "finish": null
+    }
+  },
+  "iif": {
+    "tech": "Java, Spring Boot, Maven, React, JavaScript, HTML, CSS, Bootstrap, Webpack, MySQL",
+    "period": {
+      "start": "2013/10/16",
+      "finish": "2020/09/14"
+    }
+  }
+}
