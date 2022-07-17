@@ -17,9 +17,9 @@ export default function About() {
             <p>{printAge(a.birthday, l.lang, l.year)}</p>
           </div>
           <div className="contacts">
-            <div>{l.w.email}: <a href={`mailto:${a.email}`}>{a.email}</a></div>
-            <div>{l.w.phone}: {a.phone}</div>
-            <div>{l.w.github}: <a href={`${a.github}`} target="_blank">{a.github}</a></div>
+            <div>{l.w.email}:<br/> <a href={`mailto:${a.email}`}>{a.email}</a></div>
+            <div>{l.w.phone}:<br/> {a.phone}</div>
+            <div>{l.w.github}:<br/> <a href={`${a.github}`} target="_blank">{a.github}</a></div>
           </div>
         </div>
         <div className="card">

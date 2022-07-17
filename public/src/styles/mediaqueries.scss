@@ -239,6 +239,7 @@
 
     .info {
       margin-top: 70px;
+      margin-bottom: 10px;
       .general {
         .job-n-age {
           font-size: 1.2rem;
@@ -246,6 +247,10 @@
         .contacts {
           width: 150px;
           margin-left: 10px;
+
+          br {
+            display: block;
+          }
         }
       }
 
