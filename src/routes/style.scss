@@ -1,0 +1,142 @@
+$acwvw: 91vw; // app container width
+$tntpx: 5px;
+
+$seppx: 20px; // separator vertical
+
+$bordr: 0.5rem; // border radius common
+$borlw: thin; // borders line width
+
+$col-b: #212;
+$col-c: #134;
+$col-g: #be3455; // Viva Magenta
+$col-a: #f78;
+$col-f: #f9a;
+$col-d: #555;
+$col-e: #eee;
+$col-h: #fff;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+body {
+  align-items: center;
+  background: $col-b;
+  color: $col-e;
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+  width: $acwvw;
+}
+
+a {
+  border-bottom: 0.1rem dashed $col-g;
+  color: $col-a;
+  text-decoration: none;
+  transition: all 0.2s;
+
+  &:hover {
+    border-color: $col-f;
+    color: $col-f;
+  }
+}
+
+.loader {
+  background: $col-b;
+  color: $col-e;
+  position: fixed;
+  text-align: center;
+  top: 20%;
+  z-index: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .tech {
+    .info {
+      font-size: 1.6vw;
+      width: calc((100% / 9) - $tntpx);
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .personal {
+    flex-direction: column;
+
+    .main {
+      margin-right: 0;
+    }
+
+    .more {
+      margin-left: 0;
+      margin-top: $seppx;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app {
+    width: 86vw;
+  }
+
+  .tech {
+    .info {
+      width: calc((100% / 6) - $tntpx);
+
+      .icon {
+        border-radius: $bordr;
+        height: 100%;
+
+        .icon-img {
+          border-radius: $bordr;
+          padding: 0;
+        }
+      }
+
+      .title {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .app {
+    width: 80vw;
+  }
+
+  .personal {
+    .main {
+      .info {
+        align-items: center;
+        flex-direction: column-reverse;
+      }
+    }
+  }
+
+  .btns {
+    width: 25px;
+    .btnloc {
+      font-size: 0.8rem;
+      height: 25px;
+    }
+  }
+}

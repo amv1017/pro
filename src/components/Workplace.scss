@@ -1,0 +1,74 @@
+@import '../routes/style.scss';
+
+.workplace {
+  animation: fadeIn 0.5s;
+  background: $col-c;
+  border-radius: $bordr;
+  border: $borlw $col-g solid;
+  margin-bottom: $seppx;
+  padding: 1rem;
+
+  .position {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  span {
+    display: flex;
+    justify-content: center;
+
+    a {
+      color: $col-h;
+      font-size: 1.25rem;
+      font-weight: 600;
+      width: fit-content;
+
+      &:hover {
+        color: $col-f;
+      }
+    }
+
+    hr {
+      border: $borlw outset $col-e;
+      margin: calc($seppx / 2);
+      width: 45vw;
+    }
+  }
+
+  .period {
+    align-items: end;
+    color: $col-a;
+    display: flex;
+    flex-direction: column;
+
+    .print {
+      animation: fadeIn 0.5s;
+      background: $col-g;
+      border-radius: $bordr;
+      color: $col-e;
+      padding: 0 10px;
+    }
+  }
+
+  .technologies {
+    background: $col-b;
+    border-radius: $bordr;
+    border: $borlw $col-g solid;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .paragraph {
+    padding-left: 15px;
+  }
+
+  ul {
+    padding: 15px;
+    padding-top: 0;
+
+    li::marker {
+      color: $col-g;
+    }
+  }
+}

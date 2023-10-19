@@ -1,0 +1,24 @@
+{
+  "name": "pro",
+  "version": "1.0.1",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "solid-start dev --port=8080",
+    "build": "solid-start build && node build.js",
+    "start": "solid-start start"
+  },
+  "dependencies": {
+    "@solidjs/meta": "^0.28.6",
+    "@solidjs/router": "^0.8.3",
+    "sass": "^1.69.4",
+    "solid-js": "^1.8.3",
+    "solid-start": "^0.3.7",
+    "solid-start-vercel": "^0.3.7",
+    "undici": "^5.26.3",
+    "vite": "^4.5.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}

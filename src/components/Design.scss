@@ -1,0 +1,25 @@
+@import '../routes/style.scss';
+
+.separator {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: $seppx;
+
+  div {
+    padding: 0 1vw;
+    width: 100%;
+
+    hr {
+      border: $borlw outset $col-g;
+    }
+  }
+
+  span {
+    font-size: 1.25rem;
+    font-weight: 600;
+    min-width: fit-content;
+    padding-bottom: 0.25rem;
+    text-align: center;
+  }
+}

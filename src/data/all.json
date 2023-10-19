@@ -1,0 +1,45 @@
+{
+  "email": "amv1017@mail.ru",
+  "phone": "+7(925)322-95-87",
+  "github": "https://github.com/amv1017",
+  "birthday": "1990/10/22",
+  "photo": "/assets/profile_photo.jpg",
+  "tech": [
+    ["JavaScript", "/assets/javascript.png"],
+    ["TypeScript", "/assets/typescript.png"],
+    ["React", "/assets/react.png"],
+    ["Redux", "/assets/redux.png"],
+    ["Zustand", "/assets/zustand.png"],
+    ["HTML", "/assets/html.png"],
+    ["CSS", "/assets/css.png"],
+    ["Sass", "/assets/sass.png"],
+    ["TailwindCSS", "/assets/tailwindcss.png"],
+    ["Webpack", "/assets/webpack.png"],
+    ["Vite", "/assets/vite.png"],
+    ["Jest", "/assets/jest.png"],
+    ["Cypress", "/assets/cypress.png"],
+    ["WebSockets", "/assets/websockets.png"],
+    ["GraphQL", "/assets/graphql.png"],
+    ["MongoDB", "/assets/mongodb.png"],
+    ["Git", "/assets/git.png"],
+    ["Docker", "/assets/docker.png"]
+  ],
+  "bbs": {
+    "key": "bbs",
+    "tech": "JavaScript, TypeScript, React, Redux, MobX, Semantic UI, Bulma CSS, Vite, esbuild, Webpack, Jest, Go, gofpdf, excelize, WebSockets API, Git, PostgreSQL, FastReport",
+    "period": {
+      "start": "2021/06/02",
+      "finish": null
+    },
+    "link": "https://bbs-diplom.ru/"
+  },
+  "iif": {
+    "key": "iif",
+    "tech": "Java, Spring Boot, Maven, React, JavaScript, HTML, CSS, Bootstrap, Webpack, AJAX, Canvas API, GTK, MySQL",
+    "period": {
+      "start": "2013/10/16",
+      "finish": "2020/09/14"
+    },
+    "link": "https://iifrf.ru/"
+  }
+}

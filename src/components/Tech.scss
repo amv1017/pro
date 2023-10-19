@@ -1,0 +1,58 @@
+@import '../routes/style.scss';
+
+.tech {
+  align-items: center;
+  background: $col-c;
+  border-radius: $bordr;
+  border: $borlw $col-g solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: $seppx;
+  padding-left: $tntpx;
+  padding-top: $tntpx;
+
+  .info {
+    align-items: center;
+    animation: fadeIn 0.5s;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8vw;
+    margin-bottom: $tntpx;
+    margin-right: $tntpx;
+    transition: transform 1.5s;
+    width: calc((100% / 18) - $tntpx);
+
+    .icon {
+      background: $col-b;
+      border-top-left-radius: $bordr;
+      border-top-right-radius: $bordr;
+      display: flex;
+      height: 75%;
+      width: 100%;
+
+      .icon-img {
+        aspect-ratio: 1 / 1;
+        margin: 0 auto;
+        padding: 5px;
+      }
+    }
+
+    .title {
+      align-items: center;
+      background: $col-g;
+      border-bottom-left-radius: $bordr;
+      border-bottom-right-radius: $bordr;
+      display: flex;
+      height: 25%;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

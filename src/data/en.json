@@ -1,0 +1,65 @@
+{
+  "name": "Alexander M. Vinokurov",
+  "firstlastname": "Alexander Vinokurov",
+  "job": "Frontend developer",
+  "bbs": {
+    "key": "bbs",
+    "title": "OOO «BBS»",
+    "position": "middle fullstack developer",
+    "details": [
+      "development of the portal for processing billing data (\"Universal Payment Bills\", receipts and other payment documents);",
+      "creation of web-interface and web-components for generating reports, managing orders' statuses and routes, sending email notifications to clients;",
+      "web interface and the server part of module for processing PDF files according to a given template, module for generating attendant documentation have been developed;",
+      "application build process has been optimized, build time was reduced by more than 20 times and the build size by 2.5 times;",
+      "implemented interfaces for downloading and editing address data provided by clients, interface of updating the post office database;",
+      "services for automated label output and technical designations output, combining documents for sending and further printing have been created;",
+      "web-interface of the transport-logistics module has been designed;",
+      "additional mode and the interface for fast scanning and searching for scanned barcodes has been developed;",
+      "integration of the portal with the system for printing lottery tickets and scratch cards."
+    ]
+  },
+  "iif": {
+    "key": "iif",
+    "title": "MOU «IIF»",
+    "position": "web developer, desktop developer",
+    "details": [
+      "application with web interface has been developed for maintaining warehouse records, managing and editing a buying plan;",
+      "additional section of the corporate website was implemented for interaction with clients for security system purchasing and receiving technical support;",
+      "design of the system for gathering and processing information to rate the functioning of the complex of technical means for perimeter protection;",
+      "development of desktop- and web-interfaces for managing the security complex and its interaction with peripheral devices;",
+      "the client-server simulation model of the communication system as part of scientific project has been developed;",
+      "architectural supervision of the production cycle, coordination of work between departments."
+    ]
+  },
+  "year": {
+    "m": "years",
+    "n1": "year",
+    "n234": "years",
+    "n567890": "years",
+    "nx": "years"
+  },
+  "month": {
+    "m": "months",
+    "n1": "month",
+    "n234": "months",
+    "n567890": "months",
+    "nx": "months"
+  },
+  "dictionary": {
+    "email": "e-mail",
+    "phone": "Phone",
+    "github": "GitHub",
+    "tillnow": "till now",
+    "and": "and",
+    "technologies": "Technologies",
+    "experience": "Work experience",
+    "education": "Education",
+    "languages": "Languages",
+    "citizenship": "Citizenship",
+    "russia": "Russia",
+    "r_a": "Responsibilities and achievements"
+  },
+  "mai": "Moscow Aviation Institute (National Research University), applied mathematics and computer science speciality (diploma with distinction), 2008 - 2014.",
+  "langs": ["Russian (native)", "English (C1)"],
+  "lang": "en"
+}

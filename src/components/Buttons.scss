@@ -1,0 +1,32 @@
+@import '../routes/style.scss';
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 4px;
+  top: 0;
+  width: 30px;
+
+  .btnloc {
+    background: $col-d;
+    border: none;
+    color: $col-e;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 1.75rem;
+
+    &:last-child {
+      border-bottom-left-radius: $bordr;
+      border-bottom-right-radius: $bordr;
+    }
+
+    &:disabled {
+      background: $col-g;
+    }
+
+    &:hover:enabled {
+      filter: brightness(105%);
+    }
+  }
+}
